@@ -1,0 +1,153 @@
+.sideheader {
+    background-color: #33291c;
+    padding:0;
+    margin:0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    text-indent: 20px;
+    padding: 0%;
+    background-color: #33291c;
+    margin-top: 0%;
+    color: #b9915c;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    background-color: rgb(57, 79, 94);
+    padding: .3em;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+.nav a {
+    color: white;
+    padding: .3em;
+    text-decoration: none;
+    text-align: right;
+}
+.nav a:hover {
+    background-color: white;
+    color: rgb(57, 79, 94);
+}
+.indexnav {
+    display: flex;
+    list-style: none;
+    background-color: rgb(57, 79, 94);
+    padding: .3em;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+    height: fit-content;
+
+}
+.indexnav a {
+    color: white;
+    padding: .3em;
+    text-decoration: none;
+    text-align: right;
+}
+.indexnav a:hover {
+    background-color: white;
+    color: rgb(57, 79, 94);
+}
+
+main {
+    background-color: #BFEAFF;
+    padding:0;
+    margin: 20px;
+    box-sizing:border-box;
+    font-size: x-large;
+}
+body {
+    background-color: #BFEAFF;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #E8D2FF;
+    box-sizing:border-box;
+    margin: 20px;
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+/*grid*/
+#grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "about shelf_image"
+    "about2 shelves2";
+}
+.about {
+    font-size: xx-large;
+    margin: 20px;
+}
+.shelf_image {
+    margin:10px;
+    text-align: center; 
+    border: #b9915c;
+    border-style: solid;
+    background-color: rgb(156, 119, 71);
+    max-width: 100%;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+}
+.about2 {
+    font-size: xx-large;
+    margin: 20px;
+}
+.shelves2 {
+    text-align: center; 
+    border: #b9915c;
+    border-style: solid;
+    background-color: rgb(156, 119, 71);
+    padding: 20px;
+}
+/*hero image*/
+.hero-image {
+    background-image: url(images/FAQ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1030px;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+.hero-image-contact {
+    background-image: url(images/texting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1030px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.hero-image-club {
+    background-image: url(images/reading.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1030px;
+    color: rgb(57, 79, 94);
+    text-decoration: underline;
+    text-align: center;
+}
+.hero-image-about {
+    background-image: url(images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1030px;
+    color: #d8943c;
+    text-decoration: underline;
+    text-align: center;
+}
